@@ -39,25 +39,32 @@ body{
   }
   
   .inner-div-1 {
+    display: inline-block;
     width: 50%;
 
-    display: inline-block;
+   
     padding-left: 30px;
     padding-top: 50px;
     justify-content: center;
+    
 
   }
   
   .inner-div-2 {
     width: 50%;
     display:grid;
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: auto auto; 
     align-items: center;
-    padding-left: 20px;
+    margin-top:5%;
+    margin-right: 5%;
+    
   }
+
   .inner-div-2>img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    
   }
 
 
@@ -83,8 +90,8 @@ body{
   
   .inner1-div-2 {
     width: 50%;
-    display: block;
     text-align: center;
+    display: block;
   }
   
   .inner-div1{
@@ -110,14 +117,33 @@ body{
     padding-left: 80px;
 
   }
-.technology{
+  .technology{
   display: flex;
   height:auto;
  }
 .tech-img{
     width: 50%;
-    background-color: aqua;
+    background-color:#F7F7F7;
+    border: 1px solid red;
+
 }
+.tech-inner{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: 100px;
+    background-color: #9747FF;
+    row-gap: 10px;
+    justify-items: end;
+}
+
+
+
+
+
+
+
+
+
 .tech-info{
     width: 50%;
     text-align: right;
@@ -198,7 +224,7 @@ padding-left: 60px;
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: 2px 2px 5px  red ;
+    
 
 
   }
@@ -424,3 +450,14 @@ padding-left: 60px;
         margin-top: 12px;
         padding-top: 20px;
     }
+    .last-foot{
+        background-color: #033B85;
+        width: 100%;
+        text-align: center;
+        color: #F7F7F7;
+        padding-top: 20px;
+        margin-top: 0;
+        height:auto;
+        padding-bottom: 5px;
+    }
+    
