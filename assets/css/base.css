@@ -72,7 +72,7 @@ figure{
     padding: 5px;
     display: flex;
     height: 500px;
-    background-color:#EFF3FC;
+    background-color:#F7F7F7;
   }
   
   .inner-div-1 {
@@ -88,26 +88,29 @@ figure{
   .inner-div-2 {
     width: 50%;
     display:grid;
-    grid-template-columns: 150px 150px 150px; 
-   
-    margin-top:5%;
-gap: 0;
-   
-    padding-left: 100px;
-    padding-top: 100px;
+    grid-template-columns: 180px 180px 180px; 
+    grid-template-rows: 180px;
+   row-gap: 0px;
+    margin-top:1%;
+    padding-left: 60px;
+    padding-top: 80px;
     
   }
   .infra{
    text-align: center;
     background-color: #F79654;
-    padding-top: 50px;
+    padding-top: 60px;
     font-weight: bold;
     color:#F7F7F7;
+    width: 180px;
+    height: 180px;
+    
+
   }
 
   .inner-div-2>div>img{
-    width: 150px;
-    height: 157px;
+    width: 180px;
+    height: 180px;
     justify-content: center;
     display: block;
   }
@@ -119,9 +122,9 @@ gap: 0;
 
   .outer1-div {
     width: 100%;
-    height: 200px;
+    height:250px;
     display: flex;
-    background-color: #EFF3FC;
+    background-color:#EFF3FC;
   }
   
   .inner1-div-1 {
@@ -137,6 +140,7 @@ gap: 0;
     width: 50%;
     text-align: center;
     display: block;
+    padding-top: 20px;
   }
   
   .inner-div1{
@@ -165,9 +169,10 @@ gap: 0;
   .technology{
   display: flex;
   height:auto;
+  width: 100%;
  }
 .tech-img{
-    width: 50%;
+    width: 55%;
     background-color:#F7F7F7;
     border: 1px solid red;
 
@@ -190,9 +195,10 @@ gap: 0;
 
 
 .tech-info{
-    width: 50%;
+    width: 45%;
     text-align: right;
     padding-right: 75px;
+    padding-top: 20px;
 
 }
 .services{
@@ -218,7 +224,7 @@ padding-left: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 10px; /* Space between cells */
+    gap: 10px; 
   }
   
   .cell {
