@@ -171,28 +171,19 @@ figure{
   height:auto;
   width: 100%;
  }
-.tech-img{
-    width: 55%;
-    background-color:#F7F7F7;
-    border: 1px solid red;
 
-}
 .tech-inner{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-row: 100px;
-    background-color: #9747FF;
-    
+    width: 55%;
+    grid-template-columns:300px 300px;
     justify-items: end;
+    width: 55%;
+    background-color:#F7F7F7;
+    
+    padding-top: 20px;
+    padding-left: 30px;
+    
 }
-
-
-
-
-
-
-
-
 
 .tech-info{
     width: 45%;
@@ -211,11 +202,11 @@ figure{
 .ser-first{
     width: 40%;
 padding-left: 60px;
+padding-top: 40px;
 
 }
 .ser-second{
     width: 60%;
-   
 
 }
 
@@ -224,12 +215,15 @@ padding-left: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 10px; 
+    row-gap: 70px;
+    column-gap: 25px;
+    padding-top: 80px;
   }
   
   .cell {
     padding: 20px;
     text-align: center;
+    background-color:#FFFFFF;
   }
   #cell1:hover{
     background-color: #01DEC14D;
@@ -375,8 +369,9 @@ padding-left: 60px;
    }
 
    .read{
-    margin-left: 6%;
-    margin-right: 6%;
+
+    margin-left: 8%;
+   margin-right: 6%;
     display:grid;
     grid-template-columns: auto auto auto;
     gap:20px;
@@ -390,14 +385,14 @@ padding-left: 60px;
     padding-left: 35px;
     height:auto;
     text-align: center;
-    margin-right: 120px;
-    margin-left: 120px;
+   
    }
    .read>div{
     text-align:left;
    
     width:28%;
     box-shadow: 0px 7px 10px 0px #00000040;
+    border-radius: 2.5%;
     
 
    }
