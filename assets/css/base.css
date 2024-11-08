@@ -1,14 +1,16 @@
 .nav-list>li {
     display: flex;
     padding-left: 100px;
+    font-weight: bold;
     
 }
 
 ul {
     display: flex;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-top: 20px;
 }
+
 body{
     background-color: #F7F7F7;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +19,13 @@ body{
 .dropdown-menu>li{
     background-color:#F7F7F7;
 }
+.dropdown-menu{
+    padding-top: 0;
+    border-radius: 10%;
+}
+
+
+
 
 .dropdown-menu>li>a:hover{
     background-color: #3734A9;
@@ -437,9 +446,13 @@ padding-top: 40px;
     padding-left: 5px;
     
    }
+   .happy-head{
+    background-color: #EFF3FC;
+   }
     .our{
         text-align: center;
         margin-top: 50px;
+        background-color: #EFF3FC;
     }
     .sunil{
         text-align: center;
@@ -465,16 +478,62 @@ padding-top: 40px;
         height: 250px;
         display: grid;
         grid-template-columns:20% 60% 20%;
+        background-color: #EFF3FC;
     
     }
 
-    .profile-pic{
-        align-items: center;
-        padding-left:40%;
+    .profile-pic>img{
+        position: relative;
+       padding-left: 40%;
         
     }
-
+    .profile-pic>h5{
+    padding-left: 38%;
+    }
         
+
+    .right-arrow>span>h1{
+        border-radius: 70%;
+        background-color:#F7F7F7;
+        position: absolute;
+        padding: 20px;
+       
+       
+
+    }
+    .right-arrow>span{
+        padding-left:10%;
+        padding-top: 20px;
+        position: absolute;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+
+    .left-arrow>span>h1{
+        border-radius: 70%;
+        background-color:#F7F7F7;
+        position: absolute;
+        padding: 20px;
+       
+       
+
+    }
+    .left-arrow>span{
+        padding-left:10%;
+        padding-top: 20px;
+        position: absolute;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -535,4 +594,7 @@ padding-top: 40px;
         height:auto;
         padding-bottom: 5px;
     }
-    
+   
+    .foot-list1>li{
+        padding-top: 10px;
+    }
